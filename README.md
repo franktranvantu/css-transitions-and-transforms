@@ -1,1 +1,1 @@
-Select the .photo-overlay div and create a transition that changes an overlay's opacity from 0 to 1 when you hover over it, then fades back to 0 when you hover away.
+With CSS transitions, you can set different transitions on different CSS properties.
