@@ -1,3 +1,3 @@
-CSS transitions provide a way to smoothly change the values of CSS properties over a given amount of time. 
+You can create a transition by simply defining how long the transition should last. 
 
-With CSS transforms, you can move, rotate, scale, and skew elements in 2D and 3D space.
+This is called the transition duration.
