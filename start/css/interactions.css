@@ -1,32 +1,17 @@
 /* ================================= 
-  Button Transitions
-==================================== */
-
-.button {
-	color: #fff;
-	background: #4a89ca;
-	transition-duration: 0.4s;
-	transition-property: background;
-}
-
-.button:hover {
-	background-color: #d36a62;
-}
-
-.button:active {
-	background-color: #a33830;
-}
-
-/* ================================= 
-  Photo Overlay Transitions
+  Photo Overlay Transition
 ==================================== */
 
 .photo-overlay {
 	opacity: 0;
 	transition-property: opacity;
-	transition-duration: 0.5s;
+	transition-duration: .5s;
 }
-
 .photo-overlay:hover {
 	opacity: 1;
 }
+
+/* ================================= 
+  Button Transitions
+==================================== */
+

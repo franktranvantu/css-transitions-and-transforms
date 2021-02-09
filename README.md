@@ -1,1 +1,1 @@
-With CSS transitions, you can set different transitions on different CSS properties.
+With a transition delay you can control when a transition starts, which lets you create transitions that involve multiple steps.
