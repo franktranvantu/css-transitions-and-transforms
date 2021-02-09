@@ -1,3 +1,1 @@
-CSS transitions let you decide exactly what properties to transition. 
-
-You can transition one or several CSS properties of an element with transition-property.
+Not every CSS property can accept transitions. In order to transition a property, it needs to be an animatable property.
