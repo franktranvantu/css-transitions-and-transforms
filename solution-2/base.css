@@ -1,0 +1,59 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font: 1em/1.5 'Open Sans', sans-serif;
+    color: #373737;
+    background: #eaeaea;
+    margin: 0;
+}
+label {
+    font-size: .9em;
+    color: steelblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+p {
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 1.125em;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+}
+input {
+    margin-right: 8px;
+}
+
+/* =================================
+  Layout Styles
+==================================== */
+
+.container {
+    width: 90%;
+    background: #fff;
+    margin: auto;
+    padding: 20px;
+}
+.content,
+.collapsed {
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+}
+.content {
+    padding: 1.4em;
+    border-radius: .3em;
+    margin-bottom: 1.4em;
+}
+.collapsed {
+    margin-top: 2em;
+    padding: 0 1.4em;
+}

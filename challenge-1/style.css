@@ -1,0 +1,9 @@
+/* Write a declaration that will transition only the height value of .collapsed. */
+.collapsed {
+    height: 0;
+    overflow: hidden;
+}
+
+.expand:checked ~ .collapsed {
+    height: 34vh;
+}

@@ -1,0 +1,10 @@
+/* Next, set the duration of the height transition to .6 seconds. */
+.collapsed {
+    height: 0;
+    overflow: hidden;
+    transition-property: height;
+}
+
+.expand:checked ~ .collapsed {
+    height: 34vh;
+}
