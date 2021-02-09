@@ -1,10 +1,9 @@
-/* Write a declaration that will transition only the height value of .collapsed. */
-.collapsed {
-    height: 0;
-    overflow: hidden;
-    transition-property: height;
+/* Write a declaration that will transition only the color and background values of .content. */
+.content {
+    transition-property: color, background;
 }
 
-.expand:checked ~ .collapsed {
-    height: 34vh;
+.invert:checked ~ .content {
+    color: #fff;
+    background: #373737;
 }

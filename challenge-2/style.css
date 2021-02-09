@@ -1,10 +1,9 @@
-/* Next, set the duration of the height transition to .6 seconds. */
-.collapsed {
-    height: 0;
-    overflow: hidden;
-    transition-property: height;
+/* Next, set the duration of the color transition to 400 milliseconds, and the duration of the background transition to 500 milliseconds. */
+.content {
+    transition-property: color, background;
 }
 
-.expand:checked ~ .collapsed {
-    height: 34vh;
+.invert:checked ~ .content {
+    color: #fff;
+    background: #373737;
 }
